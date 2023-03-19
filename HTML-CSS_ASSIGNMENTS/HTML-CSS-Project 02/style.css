@@ -1,0 +1,133 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 160rem;
+    max-height: 100rem;
+    height: 100vh;
+    background-image: url(./assets/bg.png);
+    background-size: 100% 90.6%;
+    background-repeat: no-repeat;
+    background-position: content;
+    background-position-y: 3.5rem;
+    background-blend-mode: lighten; 
+}
+
+/* -------NAVBAR------- */
+.navbar {
+    display: flex;
+    background-color: #000000;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img {
+    height: 1.8rem;
+    width: 5rem;
+    position: relative;
+    left: 4rem;
+}
+
+.line {
+    border-left: 2px solid #ffffff;
+    height: 2.3rem;
+}
+
+.grow-list {
+    position: relative;
+    width: 40rem;
+    right: 5rem;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    color: #F3F3F3;
+    list-style-type: none;
+    font-family: "Poppins";
+}
+
+.list-item:first-child::after {
+    content: "\2304";
+    margin-left: 0.4rem;
+    position: relative;
+    bottom: 0.2rem;
+    display: inline;
+}
+
+.button-small {
+    position: relative;
+    right: 5rem;
+    padding: 0.2rem 1rem;
+    background-color: #BA0CC5;
+    border-radius: 0.4rem;
+    color: #F3F3F3;
+    font-weight: 500;
+    border: none;
+}
+
+/* ------HERO AREA------ */
+
+.hero {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    top: 5rem;
+    align-items: center;
+}
+
+.hero-heading {
+    color: #ffffff;
+    font-size: 3.5rem;
+    position: relative;
+    bottom: 3rem;
+    width: 43.75rem;
+    text-align: center;
+}
+
+.hero-description {
+    color: #ffffff;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 3.5rem;
+    width: 30rem;
+}
+
+.button-large {
+    color: #ffffff;
+    background-color: #BA0CC5;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    position: relative;
+    bottom: 1.5rem;
+}
+
+
+
+

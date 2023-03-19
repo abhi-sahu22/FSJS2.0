@@ -1,0 +1,2018 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+
+html{
+    font-size: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1024px){
+    html{
+        font-size: 70%;
+    }
+
+    body{
+        max-width: 1024px;
+    }
+}
+
+@media all and (max-width: 480px){
+    html{
+        font-size: 55%;
+    }
+}
+
+
+/* !----First-section---- */
+
+.first{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(./Assets/Photos/futuristic-bg.png);
+    background-position:center;
+}
+
+.nav-bar{
+    padding: 2% 8%;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6rem;
+    max-width: fit-content;
+}
+
+.logoNavImg{
+    width: 25%;
+}
+
+.list{
+    display: flex;
+    gap: 2rem;
+    white-space: nowrap;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    color: #cec7c8;
+}
+
+.list-items{
+    list-style-type: none;
+}
+
+.list-items:hover{
+    cursor: pointer;
+    color: #8e8889;
+}
+
+.buttons{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 3rem;
+    max-width: max-content;
+    align-items: center;
+}
+
+.buttons span{
+    color: #cec7c8;
+}
+
+.buttons span:hover{
+    cursor: pointer;
+    color: #8e8889;
+}
+
+.buttons button{
+    padding: 0.6rem 1.2rem;
+    white-space: nowrap;
+    font-weight: 700;
+    background-color: #F4694C;
+    color: #ffffff;
+    border: none;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    color: #000000;
+    scale: 0.95;
+    font-weight: 100;
+}
+
+/* &---- Hero-container-first----*/
+
+.hero-one{
+    margin: 3% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ?----left-area---- */
+
+.left-area{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 5% 0;
+}
+
+.left-area h1{
+    font-size: 2.6rem;
+}
+
+.left-area p{
+    color: #cec7c8;
+    font-size: 0.8rem;
+}
+
+.buttons-hero{
+    display: flex;
+    gap: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.get{
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    background-color: #F4694C;
+    color: #ffffff;
+    border: none;
+    font-weight: 700;
+}
+
+.learn{
+    padding: 0.8rem 1.6rem;
+    font-size: 1rem;
+    background-color: transparent;
+    color: #FBFCFC;
+    border-color: #FBFCFC;
+}
+
+.get:hover{
+    cursor: pointer;
+    color: #000000;
+    scale: 0.95;
+    font-weight: 100;
+}
+
+.learn:hover{
+    cursor: pointer;
+    color:#6A6C70;
+    background-color: #ffffff;
+    scale: 0.95;
+}
+
+/* ?----Right-area---- */
+
+.right-area{
+    display: flex;
+    flex-direction: column;
+    padding-top: 13%;
+    padding-bottom: 4%;
+    position: relative;
+    right: 3rem;
+    gap: 6rem;
+    align-items: center;
+    max-width: fit-content;
+}
+
+.playImg{
+    width: 90%;
+}
+
+.playImg:hover{
+    scale: 0.95;
+    cursor: pointer;
+}
+
+.game-name-first{
+    display: flex;
+    position: relative;
+    right: 2rem;
+    font-size: 1.4rem;
+    color: #ffffff;
+    gap: 0rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.name-first{
+    position: relative;
+    left: 3rem;
+}
+
+.right-arrow{
+    display: flex;
+    flex-direction: column-reverse;
+    position: relative;
+    left: 4rem;
+}
+
+.right-arrow:hover{
+    cursor: pointer;
+}
+
+/* !======================================================================= */
+
+@media all and (max-width: 1024px){
+            .nav-bar{
+                padding: 5% 8% 2%;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 3rem;
+                margin: 0 auto; 
+            }
+
+            .img-menu{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 3rem;
+                max-width: fit-content;
+            }
+
+            .logoNavImg{
+                width: 80%;
+            }
+
+            .list{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                white-space: nowrap;
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.5rem;
+                color: #cec7c8;
+            }
+
+            .list-items{
+                list-style-type: none;
+                text-align: center;
+            }
+
+            .list-items:hover{
+                cursor: pointer;
+                color: #8e8889;
+            }
+
+            .buttons{
+                font-family: 'Poppins', sans-serif;
+                font-size: 0.8rem;
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                max-width: max-content;
+                align-items: center;
+            }
+
+            .buttons span{
+                color: #ec3333;
+                font-size: 1.4rem;
+            }
+
+            .buttons span:hover{
+                cursor: pointer;
+                color: #8e8889;
+            }
+
+            .buttons button{
+                padding: 0.6rem 1.2rem;
+                white-space: nowrap;
+                font-weight: 700;
+                background-color: #F4694C;
+                color: #ffffff;
+                border: none;
+            }
+
+            .buttons button:hover{
+                cursor: pointer;
+                color: #000000;
+                scale: 0.95;
+                font-weight: 100;
+            }
+
+            /* &---- Hero-container-first----*/
+
+            .hero-one{
+                margin: 3% 8%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            /* ?----left-area---- */
+
+            .left-area{
+                color: #ffffff;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                padding: 5% 0;
+                align-items: center;
+            }
+
+            .left-area h1{
+                font-size: 2.6rem;
+                text-align: center;
+            }
+
+            .left-area h1 br{
+                display: inline;
+                content: ' ';
+                clear:none;
+            }
+
+            .left-area h1 br::after{
+                content: ' ';
+            }
+
+            .left-area p{
+                color: #cec7c8;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+
+            .left-area p br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+
+            .left-area p br::after{
+                content: ' ';
+            }
+
+            .buttons-hero{
+                display: flex;
+                gap: 2rem;
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .get{
+                padding: 0.8rem 1.6rem;
+                font-size: 1rem;
+                background-color: #F4694C;
+                color: #ffffff;
+                border: none;
+                font-weight: 700;
+            }
+
+            .learn{
+                padding: 0.8rem 1.6rem;
+                font-size: 1rem;
+                background-color: transparent;
+                color: #FBFCFC;
+                border-color: #FBFCFC;
+            }
+
+            .get:hover{
+                cursor: pointer;
+                color: #000000;
+                scale: 0.95;
+                font-weight: 100;
+            }
+
+            .learn:hover{
+                cursor: pointer;
+                color:#6A6C70;
+                background-color: #ffffff;
+                scale: 0.95;
+            }
+
+            /* ?----Right-area---- */
+
+            .right-area{
+                display: flex;
+                flex-direction: column;
+                padding-top: 13%;
+                padding-bottom: 4%;
+                position: relative;
+                right: 0;
+                gap: 2rem;
+                align-items: center;
+            }
+
+            .playImg{
+                width: 90%;
+                position: relative;
+            }
+
+            .playImg:hover{
+                scale: 0.95;
+                cursor: pointer;
+            }
+
+            .game-name-first{
+                display: flex;
+                position: relative;
+                right: 2rem;
+                font-size: 1.4rem;
+                color: #ffffff;
+                gap: 0rem;
+                font-family: 'Poppins', sans-serif;
+
+            }
+
+            .name-first{
+                position: relative;
+                left: 4rem;
+                text-align: center;
+                line-height: 2;
+            }
+
+            .name-first br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+
+            .name-first br::after{
+                content: ' ';
+            }
+
+            .right-arrow{
+                display: flex;
+                flex-direction: column-reverse;
+                position: relative;
+                left: 4rem;
+            }
+
+            .right-arrow:hover{
+                cursor: pointer;
+            }
+
+}
+
+
+/* !========================================================================  */
+
+/* !----Second-section */
+
+
+.heading-second{
+    margin: 12% 8% 4% 8%;
+}
+
+h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+}
+
+/* &----Game-cards---- */
+
+.game-cards{
+    margin: 0 8% 4% 8%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+/* ?----Area-soldiers */
+
+.imageFrame{
+    width: 15rem;
+    height: 17rem;
+    background-image: url(./Assets/Photos/image\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-position: left 19rem center;
+    transition: 0.3s;
+}
+
+.imageFrame:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.text-button-card-1{
+    position: relative;
+    top: 11.44rem;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(71,76,78, 0.95);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/* ?----Area-warriors---- */
+
+.imageFrame-2{
+    width: 15rem;
+    height: 17rem;
+    background-image: url(./Assets/Photos/image\ 4.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-2:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.text-button-card-2{
+    position: relative;
+    top: 11.44rem;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgba(27, 27, 21, 0.98);
+    justify-content: space-between;
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+    transition: 0.3s;
+}
+
+.download-orange:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/*?----Area-pubjiken---- */
+
+.imageFrame-3{
+    width: 15rem;
+    height: 17rem;
+    background-image: url(./Assets/Photos/image\ 3.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-3:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.text-button-card-3{
+    position: relative;
+    top: 11.44rem;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(71,79,137, 0.95);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/* ?----Area-garela---- */
+
+.imageFrame-4{
+    width: 15rem;
+    height: 17rem;
+    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s;
+}
+
+.imageFrame-4:hover{
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.text-button-card-4{
+    position: relative;
+    top: 11.44rem;
+    padding: 4% 3%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    background-color: rgb(97,86,82, 0.96);
+    justify-content: space-between;
+
+}
+
+.description-text p:first-child{
+    font-size: 0.9rem;
+    color: #FAFAFB;
+    font-weight: 700;
+}
+
+.description-text p:nth-child(2){
+    color: #b0b8b8;
+    font-size: 0.8rem;
+}
+
+.stars img{
+    width: 0.7rem;
+    padding-right: 0.4rem;
+}
+
+.button-download{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-orange{
+    padding: 0.6rem 1rem;
+    background-color: #F4694C;
+    color: #FAFAFB;
+    font-weight: 700;
+    border: none;
+
+}
+
+.description-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.17rem;
+}
+
+/* ?----Wargame-banner---- */
+
+.wargame-banner{
+    margin: 15% 8% 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wargame{
+    max-width: 40%;
+    max-height: 58vh;
+}
+
+.wargameImg{
+    width: 100%;
+    height: 58vh;
+    object-fit: cover; 
+}
+
+.wargame-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wargame-info h2{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wargame-info p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: #717171;
+}
+
+.buttons-wargame{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.explore{
+    padding: 2% 4%;
+    color: #FBFCFC;
+    background-color: #F4694C;
+    border: none;
+    font-size: 1.05rem;
+    transition: 0.3s;
+}
+
+.explore:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.learn-more{
+    padding: 2% 4%;
+    color: #F4694C;
+    font-size: 1.05rem;
+    border: 2px solid #F4694C;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.learn-more:hover{
+    background-color: #6A6C70;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+/* !============================================================= */
+
+@media all and (max-width: 1024px){
+
+/* !----Second-section */
+            .heading-second{
+                margin: 12% 8% 4% 8%;
+            }
+            
+            h2{
+                text-align: center;
+                font-family: "Poppins", sans-serif;
+                font-size: 2.5rem;
+            }
+
+            h2 br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+
+            h2 br::after{
+                content: ' ';
+            }
+            
+            /* &----Game-cards---- */
+            
+            .game-cards{
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: 2rem;
+                row-gap:6rem;
+                align-items: center;
+                width: max-content;
+                height: max-content;
+            }
+            
+            /* ?----Area-soldiers */
+            
+            .imageFrame{
+                width: 15rem;
+                height: 17rem;
+                background-image: url(./Assets/Photos/image\ 2.png);
+                background-position: center;
+                background-size: cover;
+                background-position: left 19rem center;
+                transition: 0.3s;
+            }
+            
+            .imageFrame:hover{
+                scale: 1.05;
+                cursor: pointer;
+            }
+            
+            .text-button-card-1{
+                position: relative;
+                top: 11.44rem;
+                padding: 4% 3%;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(71,76,78, 0.95);
+                justify-content: space-between;
+            
+            }
+            
+            .description-text p:first-child{
+                font-size: 1.2rem;
+                color: #FAFAFB;
+                font-weight: 700;
+            }
+            
+            .description-text p:nth-child(2){
+                color: #b0b8b8;
+                font-size: 1rem;
+            }
+            
+            .stars img{
+                width: 0.7rem;
+                padding-right: 0.4rem;
+            }
+            
+            .button-download{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .download-orange{
+                padding: 0.6rem 1rem;
+                background-color: #F4694C;
+                color: #FAFAFB;
+                font-weight: 700;
+                border: none;
+            
+            }
+            
+            .description-text{
+                display: flex;
+                flex-direction: column;
+                gap: 0.17rem;
+            }
+            
+            /* ?----Area-warriors---- */
+            
+            .imageFrame-2{
+                width: 15rem;
+                height: 17rem;
+                background-image: url(./Assets/Photos/image\ 4.png);
+                background-position: center;
+                background-size: cover;
+                transition: 0.3s;
+            }
+            
+            .imageFrame-2:hover{
+                scale: 1.05;
+                cursor: pointer;
+            }
+            
+            .text-button-card-2{
+                position: relative;
+                top: 11.44rem;
+                padding: 4% 3%;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(27, 27, 21, 0.98);
+                justify-content: space-between;
+            }
+            
+            .description-text p:first-child{
+                font-size: 1.2rem;
+                color: #FAFAFB;
+                font-weight: 700;
+            }
+            
+            .description-text p:nth-child(2){
+                color: #b0b8b8;
+                font-size: 1rem;
+            }
+            
+            .stars img{
+                width: 0.7rem;
+                padding-right: 0.4rem;
+            }
+            
+            .button-download{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .download-orange{
+                padding: 0.6rem 1rem;
+                background-color: #F4694C;
+                color: #FAFAFB;
+                font-weight: 700;
+                border: none;
+                transition: 0.3s;
+            }
+            
+            .download-orange:hover{
+                background-color: #ff441e;
+                cursor: pointer;
+                scale: 1.05;
+            }
+            
+            .description-text{
+                display: flex;
+                flex-direction: column;
+                gap: 0.17rem;
+            }
+            
+            /*?----Area-Garela---- */
+            
+            .imageFrame-3{
+                width: 15rem;
+                height: 17rem;
+                background-image: url(./Assets/Photos/image\ 3.png);
+                background-position: center;
+                background-size: cover;
+                transition: 0.3s;
+            }
+            
+            .imageFrame-3:hover{
+                scale: 1.05;
+                cursor: pointer;
+            }
+            
+            .text-button-card-3{
+                position: relative;
+                top: 11.44rem;
+                padding: 4% 3%;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(71,79,137, 0.95);
+                justify-content: space-between;
+            
+            }
+            
+            .stars img{
+                width: 0.7rem;
+                padding-right: 0.4rem;
+            }
+            
+            .button-download{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .download-orange{
+                padding: 0.6rem 1rem;
+                background-color: #F4694C;
+                color: #FAFAFB;
+                font-weight: 700;
+                border: none;
+            
+            }
+            
+            .description-text{
+                display: flex;
+                flex-direction: column;
+                gap: 0.17rem;
+            }
+            
+            /* ?----Area-Pubjiken Dak---- */
+            
+            .imageFrame-4{
+                width: 15rem;
+                height: 17rem;
+                background-image: url(./Assets/Photos/Rectangle\ 56.png);
+                background-position: center;
+                background-size: cover;
+                transition: 0.3s;
+            }
+            
+            .imageFrame-4:hover{
+                scale: 1.05;
+                cursor: pointer;
+            }
+            
+            .text-button-card-4{
+                position: relative;
+                top: 11.44rem;
+                padding: 4% 3%;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(97,86,82, 0.96);
+                justify-content: space-between;
+            
+            }
+            
+            .stars img{
+                width: 0.7rem;
+                padding-right: 0.4rem;
+            }
+            
+            .button-download{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .download-orange{
+                padding: 0.6rem 1rem;
+                background-color: #F4694C;
+                color: #FAFAFB;
+                font-weight: 700;
+                border: none;
+            
+            }
+            
+            .description-text{
+                display: flex;
+                flex-direction: column;
+                gap: 0.17rem;
+            }
+            
+            /* ?----Wargame-banner---- */
+            
+            .wargame-banner{
+                margin: 0% 3% 5%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                padding: 0 0;
+            }
+            
+            .wargame{
+                max-width: 40rem;
+                height: auto;
+            }
+            
+            .wargameImg{
+                object-fit: contain; 
+            }
+            
+            .wargame-info{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                position: relative;
+                bottom: 10rem;
+                align-items: center;
+
+            }
+            
+            .wargame-info h2{
+                text-align: left;
+                font-family: 'Poppins', sans-serif;
+                text-align: center;
+            }
+            
+            .wargame-info p{
+                font-family: 'Poppins', sans-serif;
+                margin: auto;
+                text-align: center;
+                font-size: 1.2rem;
+                line-height: 1.5;
+                color: #717171;
+                text-align: center;
+            }
+
+            .wargame-info p br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+            
+            .wargame-info p br::after{
+                content: ' ';
+            }
+
+            .buttons-wargame{
+                display: flex;
+                flex-direction: row;
+                gap: 5%;
+            }
+            
+            .explore{
+                padding: 2% 4%;
+                color: #FBFCFC;
+                background-color: #F4694C;
+                border: none;
+                font-size: 1.05rem;
+                transition: 0.3s;
+                white-space: nowrap;
+            }
+            
+            .explore:hover{
+                background-color: #ff441e;
+                cursor: pointer;
+                scale: 1.05;
+            }
+            
+            .learn-more{
+                padding: 2% 4%;
+                color: #F4694C;
+                font-size: 1.05rem;
+                border: 2px solid #F4694C;
+                background-color: #ffffff;
+                transition: 0.3s;
+                white-space: nowrap;
+            }
+            
+            .learn-more:hover{
+                background-color: #6A6C70;
+                cursor: pointer;
+                scale: 1.05;
+            }
+}
+/* !=============================================================== */
+
+/* &----Recommend-bar */
+
+.recommend-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 8%;
+}
+
+.recommend-bar h2{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+}
+
+.arrow{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.previous{
+    background-color: #FDE1DB;
+    border: none;
+    padding: 1.3rem 1.1rem;
+}
+
+.previous:hover{
+    cursor: pointer;
+    background-color: #f5c8bee4;
+}
+.next{
+    background-color: #F4694C;
+    border: none;
+    padding: 1.3rem 1.1rem;
+}
+
+.next:hover{
+    background-color: #b0b8b8;
+    cursor: pointer;
+}
+
+
+/* &----Recommended-games-area---- */
+
+.games-grid{
+    margin: 5% 8% 5% 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10rem;
+    column-gap: 9rem;
+}
+
+.game-one{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: max-content;
+}
+
+.game-two{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: max-content;
+}
+
+.game-three{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: max-content;
+}
+
+.game-four{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: max-content;
+}
+
+.game-poster-one{
+    width: 11.92rem;
+    height: 15.48rem;
+}
+
+.battleImg{
+    width: 100%;
+    height: 100%;
+}
+
+.game-poster-two{
+    width: 11.92rem;
+    height: 15.48rem;
+}
+
+.game-poster-three{
+    width: 11.92rem;
+    height: 15.48rem;
+}
+
+.game-poster-four{
+    width: 11.92rem;
+    height: 15.48rem;
+}
+
+.title{
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.genre{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #F4694C;
+    font-weight: 700;
+}
+
+.genre:hover{
+    cursor: pointer;
+    color: #ff441e;
+}
+
+.brief{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.65rem;
+    color: #717171;
+}
+
+.dwn-btn{
+    padding: 5% 6%;
+    max-width: 8rem;
+    font-size: 100%;
+    background-color: #F4694C;
+    border: none;
+    color: #FDE1DB;
+    transition: 0.3s;
+}
+
+.dwn-btn:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.game-brief-one{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2% 0;
+}
+
+.game-brief-two{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2% 0;
+}
+
+.game-brief-three{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2% 0;
+}
+
+.game-brief-four{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 2% 0;
+}
+
+
+/* !================================================================ */
+
+@media all and (max-width: 1024px){
+    /* &----Recommend-bar */
+
+            .recommend-bar{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                margin: 0 8% 10%;
+            }
+            
+            .arrow{
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+                justify-content: end;
+            }
+            
+            /* &----Recommended-games-area---- */
+            
+            .games-grid{
+                margin: 5% 8% 5% 8%;
+                display: grid;
+                grid-template-columns: 1fr;
+                row-gap: 5rem;
+                column-gap: 9rem;
+            }
+            
+            .game-one{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                height: max-content;
+            }
+            
+            .game-two{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                height: max-content;
+            }
+            
+            .game-three{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                height: max-content;
+            }
+            
+            .game-four{
+                display: flex;
+                justify-content: center;
+                gap: 3rem;
+                height: max-content;
+            }
+            
+            .game-poster-one{
+                width: 27rem;
+                height: 20rem;
+            }
+            
+            .battleImg{
+                width: 100%;
+                height: 100%;
+            }
+            
+            .game-poster-two{
+                width: 25rem;
+                height: 20rem;
+            }
+            
+            .game-poster-three{
+                width: 25rem;
+                height: 20rem;
+            }
+            
+            .game-poster-four{
+                width: 27rem;
+                height: 20rem;
+            }
+            
+            .title{
+                font-size: 1.8rem;
+                font-family: 'Poppins', sans-serif;
+                font-weight: 700;
+            }
+
+            .title br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+            
+            .title br::after{
+                content: ' ';
+            }
+            
+            .genre{
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.2rem;
+                color: #F4694C;
+                font-weight: 700;
+            }
+            
+            .genre:hover{
+                cursor: pointer;
+                color: #ff441e;
+            }
+            
+            .brief{
+                font-family: 'Poppins', sans-serif;
+                font-size: 0.8rem;
+                color: #717171;
+            }
+            
+            .dwn-btn{
+                padding: 5% 6%;
+                max-width: 8rem;
+                font-size: 100%;
+                background-color: #F4694C;
+                border: none;
+                color: #FDE1DB;
+                transition: 0.3s;
+            }
+            
+            .dwn-btn:hover{
+                background-color: #ff441e;
+                cursor: pointer;
+                scale: 1.05;
+            }
+            
+            .game-brief-one{
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+                padding: 2% 0;
+            }
+            
+            .game-brief-two{
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+                padding: 2% 0;
+            }
+            
+            .game-brief-three{
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+                padding: 2% 0;
+            }
+            
+            .game-brief-four{
+                display: flex;
+                flex-direction: column;
+                gap: 1.2rem;
+                padding: 2% 0;
+            }
+}
+
+/* !================================================================ */
+
+/* !----Third-section */
+
+.third{
+    background-color: #000308;
+}
+
+.heading-third{
+    padding: 5% 8%;
+}
+.heading-third h2{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+/* &----GamesOfTheWorld----- */
+
+.gamesOfTheWorld{
+    padding-bottom: 5rem;
+    margin: 1% 0 0 8%;
+    position: relative;
+    background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
+    background-position-x: right;
+    background-position-y: 12rem;
+    background-size: 70%;
+    opacity: 0.5;
+    overflow-x: hidden;
+}
+
+.poster-board{
+    display: flex;
+    gap: 5%;
+}
+
+.oneImg{
+    width: 28vw;
+    height: 70vh;
+    transition: 0.3s;
+}
+
+.oneImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+}
+
+.rightposter-side{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    gap: 5rem;
+}
+
+.rightposter-side p{
+    color: #b0b8b8;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    top: 10vh;
+    max-width: max-content;
+}
+
+.Imgs-two-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 10%;
+}
+
+.twoImg{
+    width: 15.96rem;
+    height: 21.29rem;
+    transition: 0.3s;
+}
+
+.twoImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+}
+
+.threeImg{
+    width: 17.6rem;
+    height: 15.48rem;
+    transition: 0.3s;
+}
+
+.threeImg:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    scale: 1.05;
+}
+
+/* &----Gamer-start */
+
+.gamer-start{
+    width: 100%;
+    height: 60vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(./Assets/Photos/Rectangle\ 606.png) no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.2rem 0;
+}
+
+.start-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.start-panel h2{
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    transition: 0.3s;
+}
+
+.start-panel h2:hover{
+    color: #ff0000;
+    scale: 1.5;
+}
+
+.start-panel p{
+    color: #717171;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.get-start{
+    color: #FDE1DB;
+    background-color: #F4694C;
+    font-size: 0.9rem;
+    border: none;
+    padding: 1rem 2.3rem;
+    transition: 0.3s;
+}
+
+.get-start:hover{
+    background-color: #ff441e;
+    cursor: pointer;
+    scale: 1.05;
+}
+
+/* !========================================================== */
+@media all and (max-width: 1024px){
+            /* !----Third-section */
+            
+            .third{
+                background-color: #000308;
+            }
+            
+            .heading-third{
+                padding: 5% 8%;
+            }
+            .heading-third h2{
+                color: #ffffff;
+                font-size: 2rem;
+            }
+            
+            /* &----GamesOfTheWorld----- */
+            
+            .gamesOfTheWorld{
+                padding-bottom: 5rem;
+                margin: 1% 0 5% 0%;
+                position: relative;
+                background: url(./Assets/Icons/GAMES\ OF\ THE\ WORLD.svg) no-repeat 0 0;
+                background-position-x: right;
+                background-position-y: 12rem;
+                background-size: 100%;
+                opacity: 0.5;
+                overflow-x: hidden;
+            }
+            
+            .poster-board{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            
+            .oneImg{
+                width: 80%;
+                height: auto;
+                transition: 0.3s;
+                margin: 0 auto;
+            }
+            
+            .oneImg:hover{
+                cursor: pointer;
+                opacity: 0.9;
+                scale: 1.05;
+            }
+            
+            .rightposter-side{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                margin: 0 8%;
+            }
+            
+            .rightposter-side p{
+                color: #b0b8b8;
+                font-family: "Poppins", sans-serif;
+                font-size: 1.5rem;
+                position: relative;
+                top: 0;
+                max-width: max-content;
+                margin: 0 5%;
+                text-align: center;
+            }
+
+            .rightposter-side p br{
+                display: inline;
+                content: ' ';
+                clear: none;
+            }
+
+            .rightposter-side p br::after{
+                content: ' ';
+            }
+            
+            .Imgs-two-three{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 0;
+            }
+            
+            .twoImg{
+                width: 15.96rem;
+                height: 21.29rem;
+                transition: 0.3s;
+            }
+            
+            .twoImg:hover{
+                cursor: pointer;
+                opacity: 0.9;
+                scale: 1.05;
+            }
+            
+            .threeImg{
+                width: 17.6rem;
+                height: 15.48rem;
+                transition: 0.3s;
+                position: relative;
+                top: 10rem;
+            }
+            
+            .threeImg:hover{
+                cursor: pointer;
+                opacity: 0.9;
+                scale: 1.05;
+            }
+            
+            /* &----Gamer-start */
+            
+            .gamer-start{
+                width: 100%;
+                height: 30vh;
+                background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(./Assets/Photos/Rectangle\ 606.png) no-repeat;
+                background-size: 100% 25vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+                padding: 0 0;
+            }
+            
+            .start-panel{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 1rem;
+            }
+            
+            .start-panel h2{
+                color: #ffffff;
+                font-family: "Poppins", sans-serif;
+                transition: 0.3s;
+                margin: 0 3%;
+                font-size: 3rem;
+            }
+            
+            .start-panel h2:hover{
+                color: #ff0000;
+                scale: 1.5;
+            }
+            
+            .start-panel p{
+                color: #717171;
+                font-family: "Poppins", sans-serif;
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            
+            .get-start{
+                color: #FDE1DB;
+                background-color: #F4694C;
+                font-size: 1.2rem;
+                border: none;
+                padding: 1rem 2.3rem;
+                transition: 0.3s;
+            }
+            
+            .get-start:hover{
+                background-color: #ff441e;
+                cursor: pointer;
+                scale: 1.05;
+            }        
+}
+
+
+/* !========================================================== */
+
+/* !----Footer---- */
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-things{
+    background-color: #000309;
+    color: #6A6C70;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    padding: 4% 8%;
+    gap: 6%;
+}
+
+.logo-social{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logoImgFooter{
+    width: 6rem;
+}
+
+.logo-social p{
+    font-size: 0.9rem;
+}
+
+.social-icon{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.social-icon img{
+    width: 2rem;
+    transition: 0.3s;
+}
+
+.social-icon img:hover{
+    cursor: pointer;
+    scale: 1.05;
+}
+
+.articles, .leagues, .team, .get-in-touch{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+footer h3{
+    color: #FAFAFB;
+    font-size: 1rem;
+}
+
+.list-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.list-footer a{
+    color: #6D6E73;
+    text-decoration: none;
+}
+
+.list-footer a:hover{
+    color: #8e9097;
+}
+
+.last-emptyBox{
+    height: 10vh;
+    background-color: #000611;
+    border-top: 1.5px solid #40444D;
+}
+
+/* !====================================================== */
+@media all and (max-width: 1024px){
+    /* !----Footer---- */
+            .footer-things{
+                background-color: #000309;
+                color: #6A6C70;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding: 4% 8%;
+                gap: 5rem;
+                justify-content: space-around;
+            }
+
+            .logo-social{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                order: 2;
+                align-items: center;
+            }
+
+            .logoImgFooter{
+                width: 8rem;
+            }
+
+            .logo-social p{
+                font-size: 1.2rem;
+            }
+
+            .social-icon{
+                display: flex;
+                gap: 0.8rem;
+            }
+
+            .social-icon img{
+                width: 4rem;
+                transition: 0.3s;
+            }
+
+            .social-icon img:hover{
+                cursor: pointer;
+                scale: 1.05;
+            }
+
+            .articles, .leagues, .team, .get-in-touch{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                font-size: 1.5rem;
+                order: 1;
+            }
+
+            footer h3{
+                color: #FAFAFB;
+                font-size: 1.6rem;
+            }
+
+            .list-footer{
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .list-footer a{
+                color: #6D6E73;
+                text-decoration: none;
+            }
+
+            .list-footer a:hover{
+                color: #8e9097;
+            }
+
+            .last-emptyBox{
+                height: 10vh;
+                background-color: #000611;
+                border-top: 1.5px solid #40444D;
+            }
+}
+
+
+
+
+/* !----Finished desktop version---- */

@@ -1,0 +1,161 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* ------NAVBAR------ */
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% 10%;
+}
+
+.navbar-container img {
+    width: 6.25rem; 
+}
+
+.list {
+    display: flex;
+    gap: 3rem;
+    color: #b9b9b9;
+    list-style: none;
+    position: relative;
+    right: 7rem;
+}
+
+.list-item:first-child {
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav-button {
+    padding: 1rem 1.2rem;
+    border-radius: 0.625rem;
+    background-color: #5955B3;
+    border: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/*------BANNER AREA------*/
+ 
+.banner-container {
+    margin: 0 0 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #3C2F60;
+    max-width: 25rem;
+    margin-top: 6rem;
+}
+
+
+p {
+    color: #00000062;
+    font-family: poppins;
+    font-size: 0.81rem;
+    font-weight: 550;
+}
+
+.description {
+    margin-top: 1rem;
+    max-width: 20rem;
+}
+
+.banner-container img {
+    max-width: 45rem;
+    max-height: 35rem;
+}
+
+span {
+    color: #5955B3;
+}
+
+button {
+    background-color: #5955B3;
+    color: #ffffff;
+    border: none;
+}
+
+.btn {
+    margin-top: 3.125rem;
+    padding: 0.625rem 1.25rem 0.625rem;
+    border-radius: 0.5rem;
+    width: 12.5rem;
+    height: 3.125rem;
+    font-weight: 400;
+} 
+
+/*!======================================================================  */
+
+@media all and (max-width: 1400px) and (min-width: 1230px) {
+h1 {
+    font-family: poppins;
+    font-size: 2.5rem;
+    color: #3C2F60;
+}
+
+.heading-text {
+    margin-top: 6rem;
+    width: 30vw;
+}
+
+
+.description {
+    width: 25vw;
+}
+
+.banner-container img {
+    width: 46.875rem;
+    height: 31.25rem;
+}
+
+span {
+    color: #5955B3;
+}
+
+button {
+    font-family: poppins;
+    background-color: #5955B3;
+    color: #ffffff;
+    border: none;
+}
+
+.btn {
+    margin-top: 3.125rem;
+    padding: 0.625rem 1.25rem 0.625rem;
+    border-radius: 0.5rem;
+    width: 12.5rem;
+    height: 3.125rem;
+    font-weight: 400;
+}
+}
+/*!======================================================================  */
+
+
+
+
+
+
+
+
+
+

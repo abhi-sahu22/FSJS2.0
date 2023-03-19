@@ -1,0 +1,233 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    overflow: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #f0f4f5;
+    display: flow-root;
+    z-index: -2;
+}
+
+/* ! ----NAVBAR---- */
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 5% 0;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 4rem;
+}
+
+.lists {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.lists:first-child {
+    color: #20bc7e;
+}
+
+/*! ----MAIN-AREA---- */
+
+.main-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* &----lEFT-AREA----  */
+
+.left-area {
+    margin-top: 0;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 5%;
+}
+
+h1 {
+    font-size: 4rem;
+    max-width: 38rem;
+    padding-top: 3%;
+}
+
+p {
+    color: #808080;
+    font-size: 1.1rem;
+    margin: 1.5rem 0 ;
+    max-width: 36rem;
+}
+
+.Appointment {
+    background-color: #20bc7f;
+    color: #ffffff;
+    border: none;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    max-width: 20rem;
+}
+
+.topAngleImg {
+    width: 2rem;
+}
+
+.bottomAngleImg {
+    width: 2rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 7rem;
+}
+
+.mouseImg {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    left: 40rem;
+    bottom: 3.2rem;
+}
+
+.stethoscopeImg {
+    width: 32rem;
+    z-index: 0;
+    position: absolute;
+    left: 26%;
+}
+
+/* &----RIGHT-AREA---- */
+
+.right-area {
+    display: flex;
+    position: relative;
+    justify-content: right;
+    align-items: center;
+}
+
+.yellowBoxImg {
+    width: 20rem;
+    height: 20rem;
+    z-index: 0;
+    position: absolute;
+}
+
+.greenBoxImg {
+    width: 25rem;
+    height: 25rem;
+    z-index: 0;
+    position: absolute;
+    right: 1rem;
+}
+
+.doctorImg {
+    width: 25rem;
+    height: 33.5rem;
+    position: relative;
+    bottom: 1.6rem;
+    right: 0.5rem;
+    z-index: 2;
+}
+
+
+/*!========================================================  */
+@media all and (min-width: 1380px) and (min-height: 750px) {
+            .navbar-container {
+                margin: 3% 5% 0;
+            }
+
+            .lists {
+                font-size: 1.5rem;
+            }
+
+            /*! ----MAIN-AREA---- */
+
+            .main-area {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            /* &----lEFT-AREA----  */
+
+            .left-area {
+                padding-top: 5%;
+                gap: 1rem;
+            }
+
+            h1 {
+                font-size: 5rem;
+                max-width: 45rem;
+                padding-top: 3%;
+            }
+
+            p {
+                font-size: 1.3rem;
+                max-width: 45rem;
+            }
+
+            .Appointment {
+                font-size: 2rem;
+                max-width: 25rem;
+            }
+
+            .topAngleImg {
+                width: 2rem;
+            }
+
+            .mouseImg {
+                width: 3rem;
+                height: 3rem;
+                position: absolute;
+                left: 44rem;
+                bottom: 3.5rem;
+            }
+
+            .stethoscopeImg {
+                width: 36rem;
+                height: 40rem;
+                z-index: 0;
+                position: absolute;
+                left: 25%;
+            }
+
+            /* &----RIGHT-AREA---- */
+
+            .right-area {
+                display: flex;
+                position: relative;
+                justify-content: right;
+                align-items: center;
+                padding-top: 1rem;
+            }
+
+            .yellowBoxImg {
+                width: 25rem;
+                height: 25rem;
+                z-index: 0;
+                position: absolute;
+            }
+
+            .greenBoxImg {
+                width: 28rem;
+                height: 28rem;
+            }
+
+            .doctorImg {
+                margin-top: 2rem;
+                width: 25rem;
+                height: 38.5rem;
+            }
+}
+/*!========================================================  */

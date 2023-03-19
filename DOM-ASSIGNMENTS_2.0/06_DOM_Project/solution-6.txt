@@ -1,0 +1,32 @@
+SIXTH ASSIGNMENT==========
+
+----------Task----------
+
+// a- (Changing logo image to ineuron logo image):
+
+const logoImg = document.querySelector(".logo");
+logoImg.src = "./assets/ineuron-logo.png";
+
+//-------------------------------------------------
+
+// b- (Changing app_price from $4/month to $10/month):
+
+const span = document.querySelector(".app_price span");
+span.innerText = "$10";
+
+//-------------------------------------------------
+
+// c- ("Adding linkedin icon at the footer social section"):
+
+// Selecting footer_social; creating div, and i tags:
+const social = document.querySelector(".footer_social");
+const linkedin = document.createElement("div");
+const i = document.createElement("i");
+
+// Adding class to linkedin div and i:
+linkedin.classList.add("footer_social_ico");
+i.setAttribute("class", "fa-brands fa-linkedin");
+
+// Appending linkedin and i:
+social.appendChild(linkedin);
+linkedin.appendChild(i);

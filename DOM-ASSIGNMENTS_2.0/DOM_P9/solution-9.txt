@@ -1,0 +1,28 @@
+NINTH ASSIGNMENT==========
+
+
+--------Task-1--------
+
+// Changing heading font color and font-family:
+
+const h1 = document.querySelector("h1");
+
+h1.style.color = "#DC143C";
+h1.style.fontFamily = "Thames";
+
+//-------------------------------------------------
+
+--------Task-2--------
+
+// Changing the button backgroundColor to "#DC143C" upon hovering:
+// (default backgroundColor change on hover was set to "hsl(157, 37%, 20%)"):
+
+const cartBtn = document.querySelector(".add-to-cart");
+
+cartBtn.addEventListener("mouseenter", function() {
+    cartBtn.style.backgroundColor = "#DC143C";
+})
+
+cartBtn.addEventListener("mouseleave", function() {
+    cartBtn.style.backgroundColor = "";
+})

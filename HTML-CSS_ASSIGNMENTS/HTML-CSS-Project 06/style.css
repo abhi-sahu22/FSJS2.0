@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color: #F1F0EE;
+}
+
+body {
+    max-width: 1440px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#container {
+    background-color: #2B2923;
+    padding: 2% 15%;
+}
+
+
+.logo {
+    height: 2.5rem;
+    width: 7.5rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.875rem;
+    margin-left: 25%;
+}
+
+.navBar ul li {
+    list-style: none;
+    font-family: Poppins;
+    font-size: 0.75rem;
+    color: #A4A29A;
+}
+
+button {
+    background-color: #2B2923;
+    color: #8A7C33;
+    font-family: Poppins;
+    font-weight: bolder;
+    border: 1px solid #8A7C33;
+    padding: 0.313rem 0.625rem;
+    border-radius: 0.4rem;
+}
+
+/* Hero Section */
+
+.textArea {
+    margin-top: 3.75rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3.125rem;
+}
+
+
+h1 {
+    font-family: Poppins;
+    font-size: 2.5rem;
+    width: 21.875rem;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 0.875rem;
+    width: 20.625rem;
+}
+
+.ImgBanner {
+    height: 50vh;
+    width: 100%;
+}
+
+@media all and (min-height: 800px) {
+    .ImgBanner {
+        height: 60vh;
+    }
+}
+
+@media all and (min-height: 900px) {
+    .ImgBanner {
+        height: 62vh;
+    }
+}
