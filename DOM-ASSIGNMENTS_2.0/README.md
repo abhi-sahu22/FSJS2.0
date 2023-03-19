@@ -19,7 +19,7 @@
 
 ### For the **fifth** assignment- **"05_DOM_Project"** folder.
 
-[README.md file for assignment 4](./05_DOM_Project/README.md)
+[README.md file for assignment 5](./05_DOM_Project/README.md)
 
 
 ------------------------------------------------
@@ -28,7 +28,7 @@
 
 ### For the **sixth** assignment- **"06_DOM_Project"** folder.
 
-[readme.md file for assignment 4](./06_DOM_Project/README.md)
+[readme.md file for assignment 6](./06_DOM_Project/README.md)
 
 
 ------------------------------------------------
@@ -37,7 +37,7 @@
 
 ### For the **seventh** assignment- **"DOM_P7"** folder.
 
-[README.md file for assignment 4](./DOM_P7/README.md)
+[README.md file for assignment 7](./DOM_P7/README.md)
 
 
 ------------------------------------------------
@@ -46,7 +46,7 @@
 
 ### For the **eighth** assignment- **"DOM_P8"** folder.
 
-[README.md file for assignment 4](./DOM_P8/README.md)
+[README.md file for assignment 8](./DOM_P8/README.md)
 
 
 ------------------------------------------------
@@ -55,7 +55,7 @@
 
 ### For the **ninth** assignment- **"DOM_P9"** folder.
 
-[README.md file for assignment 4](./DOM_P9/README.md)
+[README.md file for assignment 9](./DOM_P9/README.md)
 
 
 ------------------------------------------------
