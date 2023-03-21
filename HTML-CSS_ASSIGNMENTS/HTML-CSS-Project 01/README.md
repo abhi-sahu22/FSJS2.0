@@ -3,3 +3,7 @@
 ## The output screenshot
 
 ![myPC-OUTPUT](./myPC-OUTPUT.png)
+
+### [LIVE LINK](https://seomaster-abhi.netlify.app/)
+
+
