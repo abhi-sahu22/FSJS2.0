@@ -1,0 +1,61 @@
+.taskPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 5px 0px 0px;
+  /* background-color: rgb(145, 176, 232); */
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  gap: 5px;
+  border-radius: 0.8rem;
+}
+
+.taskPanel label {
+  width: 60%;
+  word-wrap: break-word;
+}
+
+.taskPanel input {
+  height: 2rem;
+  width: 1.2rem;
+}
+
+.taskPanel button {
+  font-size: 12px;
+  color: aliceblue;
+  background-color: rgb(121, 22, 42);
+}
+
+.taskPanel button:focus {
+  outline: 0.5px solid bisque;
+}
+
+
+.taskPanel button:hover {
+  background-color: rgb(169, 31, 59);
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.task-button-div {
+  display: flex;
+  gap: 4px;
+  
+}
+
+.check-label {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.check-label label {
+  white-space:nowrap ;
+  color: rgb(255, 252, 252);
+}
+
+li:nth-of-type(1n+9) {
+  display: none;
+}

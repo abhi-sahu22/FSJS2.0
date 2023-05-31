@@ -1,0 +1,56 @@
+.addFormDiv {
+    width: 95%;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.addTaskInput {
+    height: 35px;
+    width: 100%;
+    background-color: rgba(83, 7, 45, 0.822);
+    border: none;
+    border-radius: 0.5rem;
+    padding-left: 1rem;
+    color: burlywood;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+}
+.addTaskInput::placeholder {
+    color: gray;
+}
+
+.addTaskInput:focus {
+    outline: 2px solid sienna;
+}
+.first {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px; 
+    position: absolute;
+    right: 3px;
+    top: 3.2px;
+    background-color: rgb(181, 187, 224);
+    outline: none;
+    border: none;
+}
+
+/* .second {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 5px 10px; 
+    position: absolute;
+    right: 50px;
+    top: 3.2px;
+    background-color: rgb(181, 187, 224);
+    outline: none;
+} */
+
+.first:focus {
+    outline: none;
+    border: none;
+}
