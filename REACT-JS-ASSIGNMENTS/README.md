@@ -1,5 +1,5 @@
 ### All the react assignments are created with vite.
 
-### All the assignments contain node_modules, so it will be easy to check.
+### All the assignments does not contain node_modules, so it need npm install.
 
-### The total size is around 230mb. 
+### Then hit npm run dev.
